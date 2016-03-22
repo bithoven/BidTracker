@@ -1,0 +1,7 @@
+phome\bidtracker\tracker\BidTrackerImpl.class
+phome\bidtracker\store\BidStore.class
+phome\bidtracker\store\UserBidHistoryStoreLockFreeImpl.class
+phome\bidtracker\models\Bid.class
+phome\bidtracker\tracker\BidTracker.class
+phome\bidtracker\store\UserBidHistoryStore.class
+phome\bidtracker\store\BidStoreLockFree.class

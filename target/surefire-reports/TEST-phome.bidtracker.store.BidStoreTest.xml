@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.046" errors="0" skipped="0" tests="11" name="phome.bidtracker.store.BidStoreTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\java\jre\bin"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\phome-test\BidTracker-master\BidTracker-master"/>
+    <property name="java.runtime.version" value="1.7.0_45-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\java\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\phome\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="net.sourceforge.cobertura.datafile" value="C:\phome-test\BidTracker-master\BidTracker-master\target\cobertura\cobertura.ser"/>
+    <property name="classworlds.conf" value="C:\Users\phome\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1463781491325670499.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\java\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\phome"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="phome"/>
+    <property name="java.class.path" value="/C:/eclipse/configuration/org.eclipse.osgi/bundles/279/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\java\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install javadoc:javadoc javadoc:test-javadoc cobertura:cobertura"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="java.ext.dirs" value="C:\java\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\java\jre\lib\resources.jar;C:\java\jre\lib\rt.jar;C:\java\jre\lib\sunrsasign.jar;C:\java\jre\lib\jsse.jar;C:\java\jre\lib\jce.jar;C:\java\jre\lib\charsets.jar;C:\java\jre\lib\jfr.jar;C:\java\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\phome-test\BidTracker-master\BidTracker-master\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/C:/eclipse/configuration/org.eclipse.osgi/bundles/279/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="project.build.outputDirectory" value="C:\phome-test\BidTracker-master\BidTracker-master\target\generated-classes\cobertura"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.014" classname="phome.bidtracker.store.BidStoreTest" name="saves_and_retrieves_winning_bid_correctly_on_concurrent_unequal_bid_placement_on_same_item"/>
+  <testcase time="0.015" classname="phome.bidtracker.store.BidStoreTest" name="accepts_exact_one_of_multiple_concurrent_equal_bids_on_same_item"/>
+  <testcase time="0.001" classname="phome.bidtracker.store.BidStoreTest" name="rejects_equal_bid_by_another_user"/>
+  <testcase time="0.001" classname="phome.bidtracker.store.BidStoreTest" name="retrieves_highest_bid_as_winning_bid"/>
+  <testcase time="0.001" classname="phome.bidtracker.store.BidStoreTest" name="test_no_bids"/>
+  <testcase time="0" classname="phome.bidtracker.store.BidStoreTest" name="rejects_lower_bids"/>
+  <testcase time="0.001" classname="phome.bidtracker.store.BidStoreTest" name="test_no_winning_bid"/>
+  <testcase time="0" classname="phome.bidtracker.store.BidStoreTest" name="accepts_higher_bids"/>
+  <testcase time="0" classname="phome.bidtracker.store.BidStoreTest" name="rejects_duplicate_bids"/>
+  <testcase time="0" classname="phome.bidtracker.store.BidStoreTest" name="accepts_a_brand_new_bid"/>
+  <testcase time="0.001" classname="phome.bidtracker.store.BidStoreTest" name="retrieves_saved_bids_for_an_item_in_order_as_placed"/>
+</testsuite>

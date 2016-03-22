@@ -1,0 +1,9 @@
+phome\bidtracker\model\BidTest.class
+phome\bidtracker\store\UserBidHistoryStoreTest.class
+phome\bidtracker\store\UserBidHistoryStoreTest$1.class
+phome\bidtracker\store\BidStoreTest.class
+phome\bidtracker\store\BidStoreTest$1.class
+phome\bidtracker\store\UserBidHistoryStoreTest$2.class
+phome\bidtracker\store\BidStoreTest$2.class
+phome\bidtracker\store\BidStoreTest$ResultTuple.class
+phome\bidtracker\tracker\BidTrackerTest.class
