@@ -1,7 +1,12 @@
+ Auction Bid Tracker > Requirement
+You have been tasked with building part of a simple online auction system which will allow users to bid onitems for sale.
+Provide a bid tracker interface and concrete implementation with the following functionality:
+Record a user's bid on an item
+Get the current winning bid for an item
+Get all the bids for an item
+Get all the items on which a user has bid
+You are not required to implement a GUI (or CLI) or persistent storage. You may use any appropriatelibraries to help, but do not include the jars or class files in your submission.
 
-PROJECT
---------
-A simple Bid tracker application
 
 PREREQUISITES TO BUILD THE PROJECT:
 -----------------------------------
@@ -9,19 +14,21 @@ Eclipse (ideally to use contained .classpath and .project files)
 Maven 3
 Java 6
 
-NOTE-  here are currently issues with cobertura and Java 7.
-http://mail.openjdk.java.net/pipermail/jdk7-dev/2011-September/002263.html
-Since I am using cobertura as code coverage tool here its advisable to build and run the project using Java 6
 
 HIGHLIGHTS:
 -----------
-Lock Free Implementation of the storage
+CAS based Lock Free Implementation
+
 TDD
-Documentation
+
+Datastructure choices
+
+Code documentation
 
 IF I HAD MORE TIME:
 -------------------
 Would have put some java docs in the tests
+
 Would have added logging
 
 
