@@ -18,9 +18,9 @@ QUICK HELP TO BUILD THE PROJECT:
 -----------------------------------
 Eclipse (ideally to use contained .classpath and .project files)
 
-Maven 3
+Maven 3+
 
-Java 6
+Java 6+
 
 
 HIGHLIGHTS:
