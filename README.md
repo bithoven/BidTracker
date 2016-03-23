@@ -14,7 +14,9 @@ Its not required to implement a GUI (or CLI) or persistent storage. You may use 
 PREREQUISITES TO BUILD THE PROJECT:
 -----------------------------------
 Eclipse (ideally to use contained .classpath and .project files)
+
 Maven 3
+
 Java 6
 
 
@@ -30,7 +32,7 @@ Code documentation
 
 IF I HAD MORE TIME:
 -------------------
-Would have put some java docs in the tests
+Would have put some java docs in the tests too
 
 Would have added logging
 
@@ -40,7 +42,7 @@ INSTRUCTIONS:
 When using the .classpath and .project files to load the project in Eclipse, please make sure you
 have an Eclipse classpath variable M2_REPO pointing to your Maven local repository.
 
-- Open command prompt/terminal, go to phome-test/HEAD and run
+- Open command prompt/termina and run
     mvn clean install javadoc:javadoc javadoc:test-javadoc cobertura:cobertura
 
 - I've however left a ready built target folder so you can see reports about the project:
