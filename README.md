@@ -3,9 +3,13 @@ Auction Bid Tracker
 Task is to build a part of a simple online auction system which will allow users to bid onitems for sale.
 
 Provide a bid tracker interface and concrete implementation with the following functionality:
+
 	Record a user's bid on an item
+
 	Get the current winning bid for an item
+
 	Get all the bids for an item
+
 	Get all the items on which a user has bid
 
 Its not required to implement a GUI (or CLI) or persistent storage. You may use any appropriatelibraries to help, but do not include the jars or class files in your submission.
