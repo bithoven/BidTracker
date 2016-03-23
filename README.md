@@ -14,8 +14,7 @@ Provide a bid tracker interface and concrete implementation with the following f
 
 Its not required to implement a GUI (or CLI) or persistent storage. You may use any appropriatelibraries to help, but do not include the jars or class files in your submission.
 
-
-PREREQUISITES TO BUILD THE PROJECT:
+QUICK HELP TO BUILD THE PROJECT:
 -----------------------------------
 Eclipse (ideally to use contained .classpath and .project files)
 
